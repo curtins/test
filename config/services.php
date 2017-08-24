@@ -14,6 +14,12 @@ return [
     |
     */
 
+    'twitter' => [
+    'client_id' => 'C1pEBGLhCkZNcbn895HpiiQZz',
+    'client_secret' => 'zR8RQd5B8ltcuG4BZW25h7hoh1T9XF6YJQfTY05Q9bY2T4njbd',
+    'redirect' => 'http:/test.scurtin.org/',
+    ],
+
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),
